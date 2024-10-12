@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="imagens/icon-farmacia.png" type="image/x-icon">
+    <title>Farmácia moderna</title>
+</head>
+<body>
+    <header>
+        
+        <div class="container">
+            <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+        
+            <nav class="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+<script>
+    const menuBtn = document.querySelector('.menu-btn');
+const navMenu = document.querySelector('.nav-menu');
+
+menuBtn.addEventListener('click', () => {
+navMenu.classList.toggle('active');
+});
+</script>
+</body>
+</html>
