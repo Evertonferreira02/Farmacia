@@ -7,12 +7,12 @@
 }
 
 html, body{
-    background-color: rgb(190, 61, 61);
+    background-color: #0072b3;
     color: white;
 }
 
 header{
-    background-color: gray;
+    background-color: #0072b3;
 }
 
 header > h1{
@@ -20,8 +20,29 @@ header > h1{
     text-align: center;
 }
 
+nav ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > li > a:hover{
+    color: white;
+}
+
 i#burguer{
-    background-color: black;
+    background-color: rgba(0, 0, 139, 0.568);
     display: block;
     color: white;
     padding: 10px;
@@ -29,7 +50,7 @@ i#burguer{
 }
 
 i#burguer:hover{
-    background-color: white;
+    background-color: darkgray;
     color: black;
 }
 
@@ -57,7 +78,7 @@ menu > ul > li > a:hover{
 
 main{
     width: 90vw;
-    background-color: gray;
+    background-color: #00a7ec;
     margin: auto;
     margin-top: 10px;
     padding: 10px;
@@ -72,7 +93,7 @@ body {
     display: inline-table;
     margin-left: 10vw;
     width: 30vw;
-    border: 2px solid #ccc;
+    border: 2px solid black;
     padding: 10px;
     margin-bottom: 20px;
     text-align: center;
@@ -89,4 +110,17 @@ article > p{
     margin-bottom: 20px;
     text-indent: 20px;
     color: black;
+}
+
+footer{
+    margin: auto;
+    height: 20px;
+    width: 100vw;
+}
+
+footer > p{
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   color: white;
+    background-color: black;
+    text-align: center;
 }
